@@ -19,9 +19,8 @@ string[] createArray(int lenght)
     return result;
 }
 
-void CountSymbol(int lenght, string[] arr)
+void CountSymbol(string[] arr)
 {
-    string[] new_arr = new string[lenght];
     Console.Write("[");
     for (int i=0; i< arr.Length; i++)
     {
@@ -35,7 +34,7 @@ string[] array = createArray(lenght);
 
 Console.WriteLine();
 Console.WriteLine("Небольше трех символов:");
-CountSymbol(lenght, array);
+CountSymbol(array);
 
 
 
